@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <a href="index.html">Main Page</a>
+    <div class="container" id="container">
+            <h1>Contact With Us</h1>
+            <form action="https://api.web3forms.com/submit" method="post" autocomplete="off">
+                <input type="hidden" name="access_key" value="b73ddbe5-a0f4-4e7a-928b-92e06ca14bb8">
+                <input type="name" name="name" placeholder="name" required>
+                <input type="email" name="email" placeholder="email" required>
+                <input type="topic" name="topic" placeholder="topic" required>
+                <textarea name="message" placeholder="message" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button>Send!</button>
+        </form>
+    </div>
+</body>
+</html>
